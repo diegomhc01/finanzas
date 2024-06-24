@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Pie from './componentes/pie/Pie';
+import Content from './componentes/content/Content';
+import AppRouter from './AppRouter/AppRouter';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Nav
+        <AppRouter/>
       </header>
+        <Content/>
+      <Pie/>
     </div>
   );
 }
