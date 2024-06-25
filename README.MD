@@ -39,7 +39,7 @@ nombre-de-tu-aplicacion/
 
 Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado para React.js. Una vez configurado, normalmente puedes usar comandos como `npm start` o `yarn start` para iniciar el servidor de desarrollo y ver la aplicación en tu navegador.
 
-## Componente de AppRouter.js (archivo README.md en español)
+## Componente de AppRouter.js
 
 Este archivo README.md describe el archivo AppRouter.js que configura el enrutamiento para una aplicación React.
 
