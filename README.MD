@@ -64,10 +64,6 @@ Este archivo README.md describe el archivo AppRouter.js que configura el enrutam
     - `/listasuper`: Renderiza el componente `ListaSuper`.
     - Ruta comodín (`*`): Redirige cualquier ruta no encontrada a la ruta raíz (`/`).
 
-**Ejecución:**
-
-Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado para React.js. Una vez configurado, normalmente puedes usar comandos como `npm start` o `yarn start` para iniciar el servidor de desarrollo y ver la aplicación en tu navegador.
-
 ## Componente de Menú con Navegación
 
 **Librería:**
@@ -94,10 +90,6 @@ Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado 
 **Salida:**
 
 - El componente renderiza un elemento `nav` con la clase `navbar navbar-inverse` de Bootstrap, que contiene el menú de navegación.
-
-**Ejecución:**
-
-Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado para React.js. Una vez configurado, normalmente puedes usar comandos como `npm start` o `yarn start` para iniciar el servidor de desarrollo y ver la aplicación en tu navegador.
 
 **Notas Adicionales:**
 
@@ -139,10 +131,6 @@ Describe el archivo `ListaMarcas.js` que define un componente React para mostrar
 - Muestra un botón personalizado (`BotonA`) para agregar o quitar marcas según el estado actual.
 - Renderiza una tabla de React Bootstrap (`Table`) para mostrar la lista de marcas.
   - Cada fila de la tabla representa una marca con su ID, detalle, estado, y botones personalizados para actualizar y eliminar (estos últimos aún no implementados para modificar el estado de la lista).
-
-**Ejecución:**
-
-Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado para React.js. Una vez configurado, normalmente puedes usar comandos como `npm start` o `yarn start` para iniciar el servidor de desarrollo y ver la aplicación en tu navegador.
 
 **Notas Adicionales:**
 
@@ -187,10 +175,6 @@ Describe el archivo `Marca.js` que define un componente React para agregar nueva
 - Muestra un mensaje de error (`errorMsg`) si existe.
 - El botón de envío (`BotonG`) definido en un archivo separado y se encarga de llamar a la función `handleOnSubmit`.
 
-**Ejecución:**
-
-Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado para React.js. Una vez configurado, normalmente puedes usar comandos como `npm start` o `yarn start` para iniciar el servidor de desarrollo y ver la aplicación en tu navegador.
-
 **Notas Adicionales:**
 
 - Este archivo proporciona un formulario para agregar marcas a un servidor en `http://localhost:8080/add_marca`. Asegúrate de tener un servidor configurado para manejar esta ruta y procesar la información de la marca.
@@ -221,10 +205,6 @@ Describe el archivo `BotonA.js` que define un componente React personalizado par
     - Tamaño `sm` para un botón pequeño.
     - Texto del botón definido por el prop `texto`.
     - Evento `onClick` que ejecuta la función `onMostrar` pasada como props.
-
-**Ejecución:**
-
-Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado para React.js. Una vez configurado, normalmente puedes usar comandos como `npm start` o `yarn start` para iniciar el servidor de desarrollo y ver la aplicación en tu navegador.
 
 **Notas Adicionales:**
 
