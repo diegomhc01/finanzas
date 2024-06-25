@@ -49,7 +49,7 @@ Este archivo README.md describe el archivo AppRouter.js que configura el enrutam
 
 **Componentes:**
 
-- **Menu:** Probablemente renderiza un menú de navegación para la aplicación.
+- **Menu:** Renderiza un menú de navegación para la aplicación.
 - **Content:** Componente que se muestra en la ruta raíz (`/`).
 - **ListaArticulos, ListaProductos, ListaMarcas, ListaSuper:** Componentes responsables de mostrar listas de artículos, productos, marcas, y posiblemente elementos relacionados con el supermercado, según sus nombres.
 
@@ -117,9 +117,9 @@ Describe el archivo `ListaMarcas.js` que define un componente React para mostrar
 **Componentes:**
 
 - **ListaMarcas:** Componente principal que renderiza la lista de marcas.
-- **Marca:** Componente secundario (probablemente) utilizado para agregar nuevas marcas (no incluido en este archivo).
-- **BotonU:** Componente personalizado (probablemente) para representar un botón de actualización.
-- **BotonD:** Componente personalizado (probablemente) para representar un botón de eliminación.
+- **Marca:** Componente secundario utilizado para agregar nuevas marcas (no incluido en este archivo).
+- **BotonU:** Componente personalizado para representar un botón de actualización.
+- **BotonD:** Componente personalizado para representar un botón de eliminación.
 
 **Estado del Componente (useState):**
 
@@ -147,7 +147,7 @@ Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado 
 **Notas Adicionales:**
 
 - Este archivo proporciona una base para mostrar una lista de marcas con botones para agregar, actualizar y eliminar elementos. 
-- Los componentes `Marca`, `BotonU`, y `BotonD` probablemente estén definidos en archivos separados. Asegúrate de incluirlos en tu proyecto.
+- Los componentes `Marca`, `BotonU`, y `BotonD` definidos en archivos separados. Asegúrate de incluirlos en tu proyecto.
 - Las funciones `handleActualizar` y `handleEliminar` actualmente solo muestran el ID del elemento pulsado en la consola. Deberás implementar la lógica para actualizar o eliminar marcas del estado `marcas`.
 - Considera agregar validación y manejo de errores para las acciones de agregar, actualizar y eliminar marcas.
 
@@ -164,7 +164,7 @@ Describe el archivo `Marca.js` que define un componente React para agregar nueva
 **Componentes:**
 
 - **Marca:** Componente principal que renderiza un formulario para agregar marcas.
-- **BotonG:** Componente personalizado (probablemente) utilizado para guardar la marca (no incluido en este archivo).
+- **BotonG:** Componente personalizado utilizado para guardar la marca (no incluido en este archivo).
 
 **Estado del Componente (useState):**
 
@@ -185,7 +185,7 @@ Describe el archivo `Marca.js` que define un componente React para agregar nueva
 - El componente renderiza un formulario con campos para ingresar el detalle y estado de la marca.
   - Utiliza componentes de React Bootstrap (`Form`, `Form.Group`, `Form.Label`, `Form.Control`) para estructurar el formulario.
 - Muestra un mensaje de error (`errorMsg`) si existe.
-- El botón de envío (`BotonG`) probablemente esté definido en un archivo separado y se encarga de llamar a la función `handleOnSubmit`.
+- El botón de envío (`BotonG`) definido en un archivo separado y se encarga de llamar a la función `handleOnSubmit`.
 
 **Ejecución:**
 
