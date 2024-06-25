@@ -1,11 +1,11 @@
-## Estructura de Aplicación React (archivo README.md en español)
+## Estructura de Aplicación React 
 
 Este archivo `README.md` describe la estructura de una aplicación React. Detalla los componentes y archivos involucrados en la construcción de la interfaz de usuario.
 
 **Componentes:**
 
 - **App.js:** El componente principal de la aplicación. Define la estructura general de la aplicación utilizando otros componentes.
-- **AppRouter.js:** Probablemente contenga la lógica de rutas para la aplicación, determinando qué componente renderizar basado en la URL actual.
+- **AppRouter.js:** Lógica de rutas para la aplicación, determinando qué componente renderizar basado en la URL actual.
 - **Content.js:** Responsable de renderizar la sección principal de contenido de la aplicación.
 - **Pie.js:** Renderiza la sección del pie de página de la aplicación, potencialmente conteniendo información de copyright o elementos de navegación.
 - **App.css:** Contiene estilos CSS aplicados a varios elementos dentro de la aplicación.
@@ -16,10 +16,10 @@ Este archivo `README.md` describe la estructura de una aplicación React. Detall
 nombre-de-tu-aplicacion/
 ├── App.css
 ├── App.js
-├── AppRouter/  // Probablemente contiene AppRouter.js y potencialmente otros archivos relacionados con el enrutamiento
+├── AppRouter/  // Contiene AppRouter.js y potencialmente otros archivos relacionados con el enrutamiento
 ├── componentes/
-│   ├── content/  // Probablemente contiene Content.js y potencialmente otros archivos relacionados con el contenido
-│   └── pie/      // Probablemente contiene Pie.js y potencialmente otros archivos relacionados con el pie de página
+│   ├── content/  // Contiene Content.js y potencialmente otros archivos relacionados con el contenido
+│   └── pie/      // Contiene Pie.js y potencialmente otros archivos relacionados con el pie de página
 └── ...         // Otros archivos de la aplicación
 ```
 
@@ -68,7 +68,7 @@ Este archivo README.md describe el archivo AppRouter.js que configura el enrutam
 
 Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado para React.js. Una vez configurado, normalmente puedes usar comandos como `npm start` o `yarn start` para iniciar el servidor de desarrollo y ver la aplicación en tu navegador.
 
-## Componente de Menú con Navegación (archivo README.md en español)
+## Componente de Menú con Navegación
 
 **Librería:**
 
@@ -105,7 +105,7 @@ Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado 
 - Asegúrate de que las rutas utilizadas en los enlaces (`NavLink`) estén definidas en el componente de enrutamiento de tu aplicación.
 
 
-## Componente ListaMarcas con React Bootstrap (archivo README.md en español)
+## Componente ListaMarcas con React Bootstrap 
 
 Describe el archivo `ListaMarcas.js` que define un componente React para mostrar una lista de marcas.
 
@@ -151,7 +151,7 @@ Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado 
 - Las funciones `handleActualizar` y `handleEliminar` actualmente solo muestran el ID del elemento pulsado en la consola. Deberás implementar la lógica para actualizar o eliminar marcas del estado `marcas`.
 - Considera agregar validación y manejo de errores para las acciones de agregar, actualizar y eliminar marcas.
 
-## Componente Marca para Agregar Marcas (archivo README.md en español)
+## Componente Marca para Agregar Marcas 
 
 Describe el archivo `Marca.js` que define un componente React para agregar nuevas marcas a una lista.
 
@@ -197,7 +197,7 @@ Para ejecutar la aplicación, necesitarás un entorno de desarrollo configurado 
 - El componente `BotonG` no está incluido en este archivo. Deberá definirse e implementar la lógica para llamar a la función `handleOnSubmit`.
 - La implementación actual asume que el servidor responde con un JSON que indica el éxito o fracaso de la operación. Considera manejar diferentes tipos de respuestas del servidor.
 
-## Componente Botón Personalizado con React Bootstrap (archivo README.md en español)
+## Componente Botón Personalizado con React Bootstrap 
 
 Describe el archivo `BotonA.js` que define un componente React personalizado para representar un botón con estilo éxito (`btn-success`) de React Bootstrap.
 
