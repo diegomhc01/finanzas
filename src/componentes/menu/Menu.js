@@ -10,11 +10,11 @@ function Menu() {
             <Link className="navbar-brand" to="/">Finanzas Personales</Link>
           </div>
           <ul className="nav navbar-nav">
-            <li><NavLink to="/listaarticulos" className="link">
-              Artículos </NavLink></li>
-              <li><NavLink to="/marca" className="link">
+              <li><NavLink to="/listamarcas" className="link">
               Marcas </NavLink></li>
-              <li><NavLink to="/producto" className="link">
+              <li><NavLink to="/listaarticulos" className="link">
+              Artículos </NavLink></li>
+              <li><NavLink to="/listaproductos" className="link">
               Productos </NavLink></li>
               <li><NavLink to="/listasuper" className="link">
               Compras Super </NavLink></li>

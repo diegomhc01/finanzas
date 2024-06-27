@@ -1,10 +1,9 @@
 import React from "react";
-
 function Content(){
     return(
         <> 
             <div className="content">
-                <h1>Content</h1>
+                <img id="home_img"/>                
             </div>
         </>
     );
